@@ -1,0 +1,5 @@
+export const ADD_CUSTOMER = "ADD_CUSTOMER";
+export const UPDATE_CUSTOMER = "UPDATE_CUSTOMER";
+export const SET_LOADING = "SET_LOADING";
+export const UNSET_LOADING = "UNSET_LOADING";
+export const SET_SEARCH = "SET_SEARCH";
