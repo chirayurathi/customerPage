@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, memo } from "react";
 import { Grid, Drawer, Card, Avatar, Typography, Button } from "@mui/material";
 import { ExistingCustomerInterface } from "../../interfaces/customerInterface";
 import FormDialog from "../FormDialog";
@@ -103,4 +103,4 @@ const CustomerDetail = ({
   );
 };
 
-export default CustomerDetail;
+export default memo(CustomerDetail);

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { memo, useContext, useEffect, useState } from "react";
 import List from "@mui/material/List";
 import { Grid } from "@mui/material";
 import useFirestore from "../../hooks/useFirestore";
@@ -65,4 +65,4 @@ const CustomerList = () => {
   );
 };
 
-export default CustomerList;
+export default memo(CustomerList);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, memo } from "react";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
@@ -127,4 +127,4 @@ const FormDialog = ({
   );
 };
 
-export default FormDialog;
+export default memo(FormDialog);

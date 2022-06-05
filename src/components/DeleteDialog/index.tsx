@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, {memo} from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -56,4 +56,4 @@ const DeleteDialog = ({
   );
 };
 
-export default DeleteDialog;
+export default memo(DeleteDialog);
